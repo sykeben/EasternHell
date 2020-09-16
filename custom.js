@@ -1,3 +1,6 @@
+// Disable Dark Reader.
+DarkReader.disable();
+
 // Time override (for development).
 var timeOverride = false; var overrideHour = 0; var overrideMinute = 0; var overrideDOTW = 0;
 function doOverride(hr, min, dotw) { timeOverride = true; overrideHour = hr; overrideMinute = min; overrideDOTW = dotw }
