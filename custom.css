@@ -1,6 +1,7 @@
 body { user-select: none }
 
 .bg-darker { background-color: #242A30 !important }
+.text-darker { color: #141A20 !important }
 
 .group-gold { background-color: #FCCF2D28 }
 .group-blue { background-color: #002A5D28 }
@@ -36,6 +37,6 @@ span.hour-1, span.hour-2, span.hour-3, span.hour-5, span.hour-6, span.hour-7 { p
 .selected-day.in-virtual strong span.h5::before { content: "👨‍💻 " !important; transform: scale(1.2) }
 .selected-day.in-class strong span.h5::before { content: "🙋 " !important; transform: scale(1.2) }
 
-.selected-group.h3, .selected-block:not(.selected-hour), .selected-day:not(.selected-hour) {
+.selected-group.h3, .selected-block:not(.selected-hour), .selected-day:not(.selected-hour), .text-shadow {
     text-shadow: 0 .125rem 0.25rem rgba(0.25,0.25,0.125,.3) !important
 }
