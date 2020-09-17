@@ -1,4 +1,6 @@
-body { user-select: none }
+body { user-select: none; }
+
+.no-scroll { overflow: hidden; }
 
 .bg-darker { background-color: #242A30 !important }
 .text-darker { color: #141A20 !important }
@@ -40,3 +42,9 @@ span.hour-1, span.hour-2, span.hour-3, span.hour-5, span.hour-6, span.hour-7 { p
 .selected-group.h3, .selected-block:not(.selected-hour), .selected-day:not(.selected-hour), .text-shadow {
     text-shadow: 0 .125rem 0.25rem rgba(0.25,0.25,0.125,.3) !important
 }
+
+.animate__delay-0p25s { animation-delay: 0.25s; } .animate__delay-0p5s { animation-delay: 0.5s; } .animate__delay-0p75s { animation-delay: 0.75s; }
+.animate__delay-1p25s { animation-delay: 1.25s; } .animate__delay-1p5s { animation-delay: 1.5s; } .animate__delay-1p75s { animation-delay: 1.75s; }
+.animate__delay-2p25s { animation-delay: 2.25s; } .animate__delay-2p5s { animation-delay: 2.5s; } .animate__delay-2p75s { animation-delay: 2.75s; }
+.animate__delay-3p25s { animation-delay: 3.25s; } .animate__delay-3p5s { animation-delay: 3.5s; } .animate__delay-3p75s { animation-delay: 3.75s; }
+.animate__delay-4p25s { animation-delay: 4.25s; } .animate__delay-4p5s { animation-delay: 4.5s; } .animate__delay-4p75s { animation-delay: 4.75s; }
