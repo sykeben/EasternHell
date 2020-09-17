@@ -154,6 +154,19 @@ function updateTable() {
 
     }
 
+    // Update title.
+    document.title = "Eastern Hell (";
+    switch (nowPeriod) {
+        case 1: document.title += "1st Hour"; break;
+        case 2: document.title += "2nd Hour"; break;
+        case 3: document.title += "3rd Hour"; break;
+        case 5: document.title += "5th Hour"; break;
+        case 6: document.title += "6th Hour"; break;
+        case 7: document.title += "7th Hour"; break;
+        default: document.title += "Break"; break;
+    }
+    document.title += ")";
+
     // Play sounds.
     if (nowDay != "off" && thenPeriod != nowPeriod) {
         if (!startupDelay) { bell.play() }
